@@ -92,7 +92,6 @@ CREATE TABLE capitulos (
         ON DELETE CASCADE ON UPDATE CASCADE
 );
 
-<img width="661" height="441" alt="image" src="https://github.com/user-attachments/assets/d8b95bab-7912-4267-8bd8-3dcd87888f3e" />
 
 
 💻 Tecnologias Utilizadas
