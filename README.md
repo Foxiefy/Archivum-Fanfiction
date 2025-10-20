@@ -22,9 +22,9 @@ A equipe do **Arquivum** é composta por estudantes responsáveis por diferentes
 
 | Nome              | Função / Papel                                           |
 | ----------------- | -------------------------------------------------------- |
-| **Maria Flor**    | Desenvolvimento de interface e modelagem de dados        |
-| **Lis Peixoto**   | Análise de requisitos e documentação **PRAXIS**          |
-| **Pedro Marques** | Desenvolvimento **Java** e integração com banco de dados |
+| **Maria Flor**    | Desenvolvimento **Java**  |
+| **Lis Peixoto**   | Análise de requisitos e documentação **PRAXIS**;Desenvolvimento de interface, integração com banco de dados|
+| **Pedro Marques** | Modelagem de dados , classes DAO |
 
 ---
 
