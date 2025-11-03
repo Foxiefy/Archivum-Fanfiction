@@ -56,7 +56,7 @@ Criadores e consumidores de literatura amadora e fanfics.
 
 ### Diagrama Entidade-Relacionamento
 
-![MER](image.png)
+![MER](mer.png)
 
 ### Script SQL
 ```sql
