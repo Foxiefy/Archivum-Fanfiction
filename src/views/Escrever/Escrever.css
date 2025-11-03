@@ -1,0 +1,96 @@
+/* ======================
+   ROOT ANCHORPANE
+   ====================== */
+.root {
+    -fx-background-color: #2c2c2c; /* fundo escuro */
+
+}
+
+/* ======================
+   LABELS
+   ====================== */
+.label, .label-large {
+    -fx-text-fill: #dddddd; /* cinza claro */
+}
+
+
+
+/* ======================
+   TEXTFIELDS
+   ====================== */
+.text-field, .input {
+    -fx-background-color: #4d4d4d;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #888888; /* placeholder mais claro */
+    -fx-border-radius: 60px;
+    -fx-background-radius: 8px;
+    -fx-border-color: transparent;
+    -fx-padding: 6 10 6 10;
+    -fx-font-size: 13px;
+}
+
+/* ======================
+   TEXTAREAS
+   ====================== */
+.text-area, .area, .area-large {
+    -fx-background-color: #4d4d4d;
+     -fx-control-inner-background: #4d4d4d;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #888888;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-border-color: transparent;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+}
+
+/* Garante que o conteúdo interno também siga o tema dark */
+.text-area .content {
+    -fx-background-color: #4d4d4d;
+    -fx-background-radius: 12px;
+}
+
+/* Área maior para corpo da fanfic */
+.area-large {
+    -fx-font-size: 14px;
+    -fx-background-color: #4d4d4d
+}
+
+.text-area .scroll-pane,
+.text-area .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+
+/* ======================
+   BOTÕES
+   ====================== */
+.button, .fab {
+    -fx-background-color: none; /* lilás suave */
+    -fx-cursor: hand;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.4) , 4, 0 , 0 , 2 );
+    -fx-padding: 10px 14px 10px 14px;
+}
+
+.button:hover, .fab:hover {
+    -fx-background-color: #9c7aff; /* leve brilho */
+}
+
+/* ======================
+   OUTROS AJUSTES
+   ====================== */
+.anchor-pane {
+    -fx-background-color: #1c1c1c;
+}
+
+/* =========================================
+   SCROLLBARS (opcional para TextArea)
+   ========================================= */
+.text-area .scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.text-area .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}

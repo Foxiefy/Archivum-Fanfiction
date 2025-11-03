@@ -1,0 +1,16 @@
+
+Fanfic Cards
+
+
+FXMLLoader loader = new FXMLLoader(getClass().getResource("CardFanfic.fxml"));
+AnchorPane card = loader.load();
+
+CardFanficController controller = loader.getController();
+controller.setFanficData(
+    "A Court of Shadows",
+    "Sayre Archeron descobre um segredo que pode mudar Prythian para sempre.",
+    "Hoje",
+    "23 min"
+);
+
+vboxListaFanfics.getChildren().add(card);

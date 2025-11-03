@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="card" prefHeight="130" prefWidth="550" styleClass="card" stylesheets="@FicCard.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/25">
+
+    <HBox layoutX="15" layoutY="15" spacing="15">
+        <!-- Imagem / capa da fanfic -->
+        <StackPane prefHeight="100" prefWidth="110" styleClass="img-container">
+            <ImageView fx:id="imgFanfic" fitHeight="70" fitWidth="70" />
+        </StackPane>
+
+        <!-- Área de texto -->
+        <VBox alignment="TOP_LEFT" spacing="5">
+            <Label fx:id="lblTitulo" styleClass="lbl-titulo" text="Título da Fanfic" />
+
+            <Label fx:id="lblDescricao" maxWidth="360" styleClass="lbl-descricao" text="Descrição breve da fanfic lorem ipsum dolor sit amet, consectetur adipiscing elit." wrapText="true" />
+
+            <HBox alignment="CENTER_LEFT" spacing="5" styleClass="info-line">
+                <Label text="Tags" />
+                <Label styleClass="lbl-separador" text="•" />
+                <Label fx:id="lblTags" styleClass="lbl-info" />
+            </HBox>
+        </VBox>
+    </HBox>
+
+</AnchorPane>

@@ -1,0 +1,51 @@
+/* === Estilo principal do card === */
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #e6e6e6;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 6, 0, 0, 3);
+    -fx-padding: 15;
+    -fx-cursor: hand;
+    -fx-transition: all 0.2s ease-in-out;
+}
+
+/* Efeito de destaque ao passar o mouse */
+.card:hover {
+    -fx-background-color: #fdf9ff;
+    -fx-effect: dropshadow(three-pass-box, rgba(75, 0, 130, 0.15), 8, 0, 0, 4);
+}
+
+/* === Container da imagem === */
+.img-container {
+    -fx-background-color: #f1ecf3;
+    -fx-background-radius: 10;
+    -fx-alignment: center;
+}
+
+/* === Título === */
+.lbl-titulo {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c0d0d;
+}
+
+/* === Descrição === */
+.lbl-descricao {
+    -fx-font-size: 13px;
+    -fx-text-fill: #4a4a4a;
+}
+
+/* === Linha inferior (data e tempo) === */
+.info-line {
+    -fx-padding: 5 0 0 0;
+}
+
+.lbl-info {
+    -fx-font-size: 13px;
+    -fx-text-fill: #3a3a3a;
+}
+
+.lbl-separador {
+    -fx-text-fill: #aaaaaa;
+}
