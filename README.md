@@ -51,7 +51,9 @@ Criadores e consumidores de literatura amadora e fanfics.
 | 💾 Banco de Dados | Armazenamento das informações de usuários, obras e capítulos |
 
 ---
+## Projeto das Telas
 
+![TELAS](img.png)
 ## 🗃️ Modelagem do Banco de Dados
 
 ### Diagrama Entidade-Relacionamento
